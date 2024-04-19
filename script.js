@@ -25,10 +25,9 @@ import { toggleTheme } from "./modules/themeSwitcher.js";
   themeToggleCheckbox.addEventListener("click", toggleTheme);
 })();
 
-
 // LocalStorage
-document.addEventListener('DOMContentLoaded', function() {
-  const storedContent = localStorage.getItem('noteContent');
+document.addEventListener("DOMContentLoaded", function () {
+  const storedContent = localStorage.getItem("noteContent");
   if (storedContent) {
     inputContainer.innerText = storedContent;
   }
