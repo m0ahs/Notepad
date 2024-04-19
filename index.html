@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soma</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <main>
+      <div class="checkbox-wrapper checkbox-wrapper-64">
+        <label class="switch">
+          <input id="checkbox" type="checkbox" />
+          <span class="slider"></span>
+        </label>
+      </div>
+      <div class="message-wrapper">
+        <div class="message-container">
+          <span
+            id="message"
+            class="message-textarea input-wrap"
+            role="textbox"
+            contenteditable
+          >
+          </span>
+        </div>
+        <p class="char-count">Caractères: <span id="label">0</span></p>
+      </div>
+    </main>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
